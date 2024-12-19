@@ -56,3 +56,4 @@ if __name__ == "__main__":
     parser.add_argument("--share", action="store_true", help="Deploy on Gradio for sharing", default=False)
     args = parser.parse_args()
     demo.launch(share=args.share)
+    
