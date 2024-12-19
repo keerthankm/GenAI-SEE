@@ -101,3 +101,4 @@ def load_models(model_id="Lykon/dreamshaper-7"):
                     ).images[0]
 
     return infer
+    
